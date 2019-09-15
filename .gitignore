@@ -21,3 +21,12 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# to ignore eclipse workspace and project setting files
+.metadata
+.recommenders
+RemoteSystemsTempFiles/*
+*.mvn
+*.classpath
+*.settings
+/target
